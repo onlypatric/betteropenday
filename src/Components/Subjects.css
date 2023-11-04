@@ -1,0 +1,50 @@
+div.app-content.projects{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.app-content div.app-content-container{
+    max-width: 800px;
+}
+div.app-content div.app-content-container h1.course-header{
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+}
+div.app-content div.app-content-container h1.course-header img{
+    height: 1.5rem;
+    fill: rgb(52, 52, 210);
+}
+div.app-content-container div.course-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 600px;
+}
+div.course-row div.minicard{
+    width: 250px;
+    height: 125px;
+    padding: 25px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background:linear-gradient(to bottom right, #9e9aa9, #9fafa4);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+div.course-row div.minicard *{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+div.app-content-container.course > p {
+    font-size: large;
+}
+div.app-content-container.course>ul{
+    margin-left:2ch;padding: 0;
+}
+div.app-content-container.course>ul li {
+    font-size: large;
+}

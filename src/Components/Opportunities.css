@@ -1,0 +1,19 @@
+div.app-content{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.app-content div.app-content-container{
+    max-width: 800px;
+}
+div.app-content div.app-content-container h1.course-header{
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+}
+div.app-content div.app-content-container h1.course-header img{
+    height: 1.5rem;
+    fill: rgb(52, 52, 210);
+}

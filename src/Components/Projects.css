@@ -1,0 +1,63 @@
+div.app-content.projects{
+    width: 100vw;
+    height: fit-content;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.app-content div.app-content-container{
+    max-width: 800px;
+}
+div.app-content div.app-content-container h1.course-header{
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+}
+div.app-content div.app-content-container h1.course-header img{
+    height: 1.5rem;
+    fill: rgb(52, 52, 210);
+}
+div.project-card{
+    width: 600px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 15px;
+    margin: 20px;
+    display: flex;
+}
+div.project-card div.project-card-info{
+    width: 200px;
+    height: 100%;
+    padding: 20px;
+    backdrop-filter: blur(25px);
+    border-radius: 15px 0px 0px 15px;
+    color:#fff;
+}
+div.project-card.right div.project-card-info {
+    margin-left: auto;
+    width: 200px;
+    height: 100%;
+    padding: 20px;
+    backdrop-filter: blur(25px);
+    border-radius: 0px 15px 15px 0px;
+    color: #fff;
+}
+div.project-card-info h2{
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    color:#ddd;
+    font-size: large;
+}
+div.project-card-info p {
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    color: #ddd;
+    font-size: medium;
+    text-wrap: balance;
+}
