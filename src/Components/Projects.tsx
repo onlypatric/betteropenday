@@ -3,6 +3,7 @@ import "./Projects.css"
 import CityClock from "../Assets/CityClock.jpg"
 import Network from "../Assets/Network.jpg"
 import Tpsit from "../Assets/TPSIT.jpg"
+import Logo2 from "../Assets/Projects.svg"
 
 function Projects() {
     const contactManagerStyle: React.CSSProperties = {
@@ -17,9 +18,9 @@ function Projects() {
 
 
     return (
-        <div className="app-content projects">
+        <div className="projects">
             <div className="app-content-container">
-                <h1 className="course-header" id="projects">I nostri progetti <b>recenti</b></h1>
+                <h1 className="course-header" id="projects"><img src={Logo2} alt="" style={{ paddingRight: "10px" }} />I nostri progetti <b>recenti</b></h1>
                 <div 
                     className="project-card"
                     style={contactManagerStyle}

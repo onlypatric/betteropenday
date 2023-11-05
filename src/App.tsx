@@ -5,6 +5,8 @@ import About from './Components/About';
 import Projects from './Components/Projects';
 import Subjects from './Components/Subjects';
 import Opportunities from './Components/Opportunities';
+import Skills from './Components/Skills';
+import Ending from './Components/Ending';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Subjects></Subjects>
       <Projects></Projects>
       <Opportunities></Opportunities>
+      <Skills></Skills>
+      <Ending></Ending>
     </div>
   );
 }

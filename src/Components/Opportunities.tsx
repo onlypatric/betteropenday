@@ -1,11 +1,12 @@
 import React from "react";
 import "./Opportunities.css"
+import Logo2 from "../Assets/Opportunities.svg"
 
 function Opportunities() {
     return (
-        <div className="app-content" id="experience">
-            <div className="app-content-container">
-                <h1 className="course-header">Opportunità post-scuola</h1>
+        <div className="opportunities" id="experience">
+            <div className="opportunities-container">
+                <h1 className="course-header"><img src={Logo2} alt="" style={{ paddingRight: "10px" }} />Opportunità post-scuola</h1>
 
                 <p>Dopo aver completato il corso di informatica, avrai una serie di <b>opportunità di carriera</b> in Italia. Il settore tecnologico del paese è in costante crescita, e con la costante innovazione delle tecnologie sono richiesti sempre più <b>sviluppatori</b>, <b>sistemisti</b> ed <b>elettricisti</b>.</p>
 
