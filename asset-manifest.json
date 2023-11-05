@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/betteropenday/static/css/main.f9c4969d.css",
-    "main.js": "/betteropenday/static/js/main.d9cb37e5.js",
+    "main.css": "/betteropenday/static/css/main.e83c2b7f.css",
+    "main.js": "/betteropenday/static/js/main.70d163df.js",
     "static/js/787.e9fd9c23.chunk.js": "/betteropenday/static/js/787.e9fd9c23.chunk.js",
     "static/media/CityClock.jpg": "/betteropenday/static/media/CityClock.51078a367507fac7b814.jpg",
     "static/media/Network.jpg": "/betteropenday/static/media/Network.e2fa3a33998475a8497a.jpg",
     "static/media/TPSIT.jpg": "/betteropenday/static/media/TPSIT.ca76733a202968647111.jpg",
+    "static/media/Sig.svg": "/betteropenday/static/media/Sig.aa2f0366f2cd061edca9fc383e2c22a1.svg",
+    "static/media/Projects.svg": "/betteropenday/static/media/Projects.d5e785dcc6657ed1fbe03e1b7a9cef61.svg",
+    "static/media/Materials.svg": "/betteropenday/static/media/Materials.1e361036ee7bcd718c8fae905d0e93b4.svg",
+    "static/media/Opportunities.svg": "/betteropenday/static/media/Opportunities.76a0390167f3b70bfd4d326d5c383bb1.svg",
+    "static/media/Skills.svg": "/betteropenday/static/media/Skills.2263d9445cc58fbdd929333ab72cdceb.svg",
     "static/media/Swift.svg": "/betteropenday/static/media/Swift.d131f8161bcae07eb28c4694f4af508c.svg",
     "index.html": "/betteropenday/index.html",
-    "main.f9c4969d.css.map": "/betteropenday/static/css/main.f9c4969d.css.map",
-    "main.d9cb37e5.js.map": "/betteropenday/static/js/main.d9cb37e5.js.map",
+    "main.e83c2b7f.css.map": "/betteropenday/static/css/main.e83c2b7f.css.map",
+    "main.70d163df.js.map": "/betteropenday/static/js/main.70d163df.js.map",
     "787.e9fd9c23.chunk.js.map": "/betteropenday/static/js/787.e9fd9c23.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9c4969d.css",
-    "static/js/main.d9cb37e5.js"
+    "static/css/main.e83c2b7f.css",
+    "static/js/main.70d163df.js"
   ]
 }
